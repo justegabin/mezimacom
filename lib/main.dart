@@ -6,7 +6,7 @@ void main() {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "JDS",
+      title: "Mayclamoney",
       initialRoute: AppPages.SPLASHSCREEN,
       getPages: AppPages.routes,
     ),
