@@ -120,7 +120,7 @@ class HomeController extends GetxController {
               '{"type_paiement" : "${typeTransfert.text}","montant" : "${montant.text}","expediteur" : "${expediteur.text}","beneficiaire" : "${beneficiaire.text}" }');
 
       var result = jsonDecode(response.body);
-
+      
       if (result["response"]) {
         snackBarGood(title: result["title"], message: result["message"]);
       } else {
